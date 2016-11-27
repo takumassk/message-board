@@ -8,8 +8,19 @@
 
 .form-group {
   margin-bottom: 10px;
+  .float-r {
+    float: right;
+  }
 }
 
 .form-control {
   margin-right: 10px;
+}
+
+.field_with_errors{
+  .form-control {
+  display: inline-block;
+  border: 1px solid #f00;
+  width: 100%;
+  }
 }
