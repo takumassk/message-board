@@ -9,6 +9,9 @@ gem 'sqlite3', group: :development
 
 gem 'pg', group: :production
 
+gem 'pry-byebug', group: :development
+#デバッグツール
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
